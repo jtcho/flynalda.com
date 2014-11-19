@@ -1,0 +1,232 @@
+
+html, body {
+	width: 100%;
+}
+
+h1, h2 {
+	color: #3d819e;
+}
+
+p {
+	color: #496069;
+}
+
+.logo {
+	// background-image:url('/assets/svg/logo.svg');
+	width: 67px;
+	height: 67px;
+	display: inline-block;
+	position: relative;   
+	margin: 10px auto;
+}
+
+.row_separator {
+	background-color: #dddcdc;
+	width: 100%;
+	height: 2px;
+	margin: 0 auto;
+}
+
+//NAVBAR
+
+.navbar {
+	background-color: #f4f4f4;
+	margin: 0;
+}
+
+.nav {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.nav a {
+	color: #0f6488;
+}
+
+.navbar-nav {
+	margin: 10px auto 0 auto;
+	float: none;
+	display: inline-block;
+}
+
+.navbar-nav > li {
+	margin: 0 50px;
+}
+
+.navbar-nav li a:after {
+	content: '';
+	width: 0;
+	background-color: #dddcdc;
+	height: 2px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	transition: 0.4s ease;
+}
+
+.navbar-nav li a:hover:after {
+	width: 100%;
+}
+
+.navbar-nav li a:hover{
+	color: #2daee4;
+	background-color: transparent;
+}
+
+//END NAVBAR
+
+//BANNER
+
+.banner {
+	width: 100%;
+	height: 500px;
+	background-color: #e4f2fa;
+	background-size: cover;
+	margin: 0 auto;
+	background-image:url('/assets/images/banner.png');
+
+	h1 {
+		display: block;
+		top: 120px;
+		position:relative;
+		margin: 10px auto;
+		color: #e4f2fa;
+		font-size: 5em;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+
+	h2 {
+		top: 130px;
+		position: relative;
+		display: none;
+		font-size: 3em;
+		margin: 10px auto;
+		color: #e4f2fa;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		// font-family: "HelveticaNeue-Ultra Light", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+}
+
+#start_box {
+	width: 200px;
+	height: 40px;
+	border: 2px solid #e4f2fa;
+	display: block;
+	position: relative;
+	top: 160px;
+	margin: 0 auto;
+
+	a {
+		position:relative;
+		display:block;
+		margin-top:10px;
+		text-transform:uppercase;
+		letter-spacing:0.5px;
+		font-size: 1em;
+		color: #e4f2fa;
+	}
+}
+
+//END BANNER
+
+//
+.slant {
+	width: 100%;
+	height: 400px;
+}
+
+.slantleft, .slantright {
+	position:relative;
+	display: block;
+	z-index: -1;
+	width: 100%;
+	height: 100px;
+}
+
+.slantbelow {
+	top: -50px;
+	margin-bottom: -50px;
+}
+
+.slanttop {
+	margin-bottom: -50px;
+}
+
+.gray {
+	background-color:#f4f4f4;
+}
+
+.dgray {
+	background-color:#d9d9d9;
+}
+
+.slantleft {
+	transform: skewY(-1deg);
+}
+
+.slantright {
+	transform: skewY(1deg);
+}
+
+.slant h1 {
+	margin: 35px auto;
+	font-size: 3.5em;
+	text-transform:uppercase;
+}
+
+.slant p {
+	letter-spacing: 0.6px;
+	font-size: 1.2em;
+}
+
+
+//FOOTER
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: #2d2d2d;
+	margin-top:50px;
+}
+
+//END FOOTER
+
+//SVG
+
+#logo_wings {
+}
+
+#logo_outline {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 0;
+	animation: logo_trace 10s linear infinite forwards;
+}
+
+//END SVG
+
+//ANIMATIONS
+
+@keyframes logo_trace {
+	0% { 
+		stroke-dashoffset: 0; 
+		stroke-dasharray: 200;
+	}
+	30% { 
+		stroke-dashoffset: 205;
+	}
+	100% { 
+		stroke-dashoffset: 400;
+	}
+}
+
+//END ANIMATIONS
+
+//DEVICE SPECIFIC RULES
+
+@media (min-width: 1000px) {
+
+	.banner h2 {
+		display: block;
+	}
+
+}
