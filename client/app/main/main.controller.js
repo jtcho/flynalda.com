@@ -8,4 +8,12 @@ angular.module('flynaldacomApp')
       $scope.awesomeThings = awesomeThings;
     });
 
+    $scope.members = [
+    	'Sam',
+    	'JT',
+    	'Steven',
+    	'Justin',
+    	'Julia'
+    ];
+
   });

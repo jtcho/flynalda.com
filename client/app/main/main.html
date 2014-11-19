@@ -17,7 +17,7 @@
 
 <div class="row_separator"></div>
 
-<div class="slant gray">
+<div class="slant gray" style="height: 460px">
   <div class="container text-center">
     <div class="row">
       <div class="col-md-2"></div>
@@ -27,17 +27,55 @@
       </div>
       <div class="col-md-2"></div>
     </div>
+    <div class="map_cancun_small"></div>
   </div>
 </div>
 <div class="slantleft slantbelow gray"></div>
 
-<div class="slantleft slanttop dgray"></div>
-<div class="slant dgray">
-
+<div class="slantleft slanttop dgray" style="z-index: -10;"></div>
+<div class="slant dgray" style="z-index: -2;">
+  <div class="container" style="z-index: -1;">
+    <div class="row">
+      <div id="tasklist">
+        <div class="col-md-8"></div>
+        <div class="col-md-4">
+          <h1 style="margin-top:20px;"> Build your itinerary here. </h1>
+          <p>
+            After personally visiting a variety of locations and trying a wide array of activities in Cancun, we've compiled a list of verified safe and fun things for you to try! All so you can fall in love with the tropical paradise just like we did. :)<br><br>
+            We've also gathered some useful pro-tips for the venturous traveler, so you don't make the same mistakes we did!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="slantright slantbelow dgray"></div>
+<div class="slantright slanttop gray"></div>
+<div class="slant gray" style="height: 700px;">
+  <div class="container">
+    <div class="row text-center">
+      <div ng-repeat="member in members" class="member">
+        <img src="assets/images/members/{{member}}.png" class="member_thumb"/>
+        <p>{{member}}</p>
+      </div>
+    </div>
+    <div class="row text-center"> 
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+      <p>
+        We're a group of college students who like to travel! We visited Cancun and had a fun time - but we also spent a lot of time lost and not knowing quite what to do. So we came back, did our research, and started NALDA! Now we're working hard so you can have even more of a blast than we did! :)
+      </p>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</div>
 
 
 <footer class="footer">
-
+<div class="container text-center">
+  <div class="row">
+    <p>NALDA Easy Travel  |  <a href="#">Facebook</a>  |  <a href="#">Contact</a> </p>
+  </div>
+</div>
 </footer>

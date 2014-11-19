@@ -129,16 +129,17 @@ p {
 
 //END BANNER
 
-//
+//SLANTED ROWS
 .slant {
 	width: 100%;
-	height: 400px;
+	height: 500px;
+	position: relative;
 }
 
 .slantleft, .slantright {
 	position:relative;
 	display: block;
-	z-index: -1;
+	z-index: -10;
 	width: 100%;
 	height: 100px;
 }
@@ -150,6 +151,7 @@ p {
 
 .slanttop {
 	margin-bottom: -50px;
+	z-index: 0;
 }
 
 .gray {
@@ -179,6 +181,36 @@ p {
 	font-size: 1.2em;
 }
 
+//END SLANTED ROWS
+
+.map_cancun_small {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	position: relative;
+	background-image:url('/assets/images/cancun_map1.png');
+	margin: 20px auto 0 auto;
+	border-radius:10px;
+}
+
+.map_cancun_small:hover {
+	background-image:url('/assets/images/cancun_map2.png');
+}
+
+//MEMBERS
+
+.member {
+	margin: 10px 10px; 
+	display: inline-block;
+}
+
+.member_thumb {
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+}
+
+//
 
 //FOOTER
 
@@ -186,7 +218,19 @@ p {
 	width: 100%;
 	height: 50px;
 	background-color: #2d2d2d;
-	margin-top:50px;
+	padding-top:18px;
+	letter-spacing:1px;
+	// margin-top:50px;
+}
+
+.footer p {
+	color:#d0d0d0;
+}
+
+.footer a{
+	color:#d0d0d0;
+	margin: 0 auto;
+	display: inline-block;
 }
 
 //END FOOTER
@@ -200,6 +244,19 @@ p {
 	stroke-dasharray: 200;
 	stroke-dashoffset: 0;
 	animation: logo_trace 10s linear infinite forwards;
+}
+
+#tasklist {
+	width: 100%;
+	height:572px;
+	background-repeat:no-repeat;
+	display: inline-block;
+	position: relative;
+}
+
+#tasklist h1 {
+	display: inline-block;
+	position: relative;
 }
 
 //END SVG
@@ -223,7 +280,22 @@ p {
 
 //DEVICE SPECIFIC RULES
 
+@media (min-width: 700px) {
+	.member_thumb {
+		width: 200px;
+		height: 200px;
+	}
+}
+
 @media (min-width: 1000px) {
+
+	.member {
+		margin: 20px 50px; 
+	}
+
+	#tasklist {
+		background-image:url('/assets/svg/tasklist.svg');
+	}
 
 	.banner h2 {
 		display: block;
