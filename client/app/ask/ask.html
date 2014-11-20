@@ -1,0 +1,63 @@
+<style>
+body {
+	background-color:#f4f4f4;
+}
+</style>
+
+<div ng-include="'components/navbar/navbar.html'"></div>
+<!-- <div style="background-color:#f4f4f4"> -->
+<div class="row_separator"></div>
+
+<div style="width:100%; height:100px; background-color:#f4f4f4; position:relative; z-index: 2;"></div>
+
+<div class="slantright slanttop dgray"></div>
+<div class="slant dgray text-center" style="height:550px;">
+	<div class="col-md-1"></div>
+	<div class="col-md-7">
+		<h1 style="margin-top:0px;">Ask Nalda</h1>
+		<div style="width:100%; height:0px; position:relative;" ng-hide="success || error"></div>
+		<div class="alert alert-danger" ng-show="error">
+		    <button class="close" ng-click="hide_alert()">x</button>
+	    	<strong>Error!</strong> An error occured while trying to send the message.
+	  	</div>
+	  	<div class="alert alert-success" ng-show="success">
+		    <button class="close" ng-click="hide_alert()">x</button>
+		    <strong>Success! </strong> Your message was successfully sent!
+  		</div>
+		<form role="form" name="contactForm">
+		    <div class="form-group" ng-class="{error: contactForm.name.$invalid}">
+		    <label>Full Name</label>
+		    <input class="form-control" type="text" name="name" ng-model="user.name" required="required" placeholder="Your name">
+		      <span class="help-block" ng-show="contactForm.name.$error.required">*Required</span>
+		    </div>
+		    <div class="form-group" ng-class="{error: contactForm.email.$invalid}">
+		      <label>Email</label>
+		      <input class="form-control" type="email" name="email" ng-model="user.email" required="required" placeholder="Your email address">
+		      <span class="help-block" ng-show="contactForm.email.$error.required">*Required</span>
+		      <span class="help-block" ng-show="contactForm.email.$error.email">Invalid email address.</span>
+		    </div>
+		    <div class="form-group" ng-class="{error: contactForm.message.$invalid}">
+		      <label>Message</label>
+		      <textarea class="form-control" rows="5" name="message" ng-model="user.body" required="required" placeholder="Got a question, or need some help planning your trip? Send us an email and we'll get back to you in a jiffy!"></textarea>
+		      <span class="help-block" ng-show="contactForm.message.$error.required">*Required</span>
+		    </div>
+	    	<button class="btn btn-primary btn-lg btn-block" ng-click="send()" ng-disabled="contactForm.$invalid">Send</button>
+		</form>
+	</div>
+	<div class="col-md-1"></div>
+	<div class="col-md-3">
+		<div class="nalda_mascot"></div>
+	</div>
+</div>
+<div class="slantleft slantbelow dgray"></div>
+
+<div style="width:100%; height:100px; background-color:#f4f4f4; position:relative; z-index: 2;"></div>
+
+<footer class="footer" style="position: relative; z-index: 2;">
+<div class="container text-center">
+  <div class="row">
+    <p>NALDA Easy Travel  |  <a href="#">Facebook</a>  |  <a href="#">Contact</a> </p>
+  </div>
+</div>
+</footer>
+<!-- </div> -->

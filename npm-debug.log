@@ -1,0 +1,292 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/jtcho/Documents/Code/flynalda.com',
+5 verbose install   [ 'express',
+5 verbose install     'morgan',
+5 verbose install     'body-parser',
+5 verbose install     'method-override',
+5 verbose install     'serve-favicon',
+5 verbose install     'cookie-parser',
+5 verbose install     'express-session',
+5 verbose install     'errorhandler',
+5 verbose install     'compression',
+5 verbose install     'lodash',
+5 verbose install     'ejs',
+5 verbose install     'composable-middleware',
+5 verbose install     'connect-mongo',
+5 verbose install     'nodemailer',
+5 verbose install     'nodemailer-smtp-transport',
+5 verbose install     'grunt',
+5 verbose install     'grunt-autoprefixer',
+5 verbose install     'grunt-wiredep',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-htmlmin',
+5 verbose install     'grunt-contrib-imagemin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-google-cdn',
+5 verbose install     'grunt-newer',
+5 verbose install     'grunt-ng-annotate',
+5 verbose install     'grunt-rev',
+5 verbose install     'grunt-svgmin',
+5 verbose install     'grunt-usemin',
+5 verbose install     'grunt-env',
+5 verbose install     'grunt-node-inspector',
+5 verbose install     'grunt-nodemon',
+5 verbose install     'grunt-angular-templates',
+5 verbose install     'grunt-dom-munger',
+5 verbose install     'grunt-protractor-runner',
+5 verbose install     'grunt-asset-injector',
+5 verbose install     'grunt-karma',
+5 verbose install     'grunt-build-control',
+5 verbose install     'grunt-mocha-test',
+5 verbose install     'grunt-contrib-sass',
+5 verbose install     'jit-grunt',
+5 verbose install     'time-grunt',
+5 verbose install     'grunt-express-server',
+5 verbose install     'grunt-open',
+5 verbose install     'open',
+5 verbose install     'jshint-stylish',
+5 verbose install     'connect-livereload',
+5 verbose install     'karma-ng-scenario',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-script-launcher',
+5 verbose install     'karma-html2js-preprocessor',
+5 verbose install     'karma-ng-jade2js-preprocessor',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'requirejs',
+5 verbose install     'karma-requirejs',
+5 verbose install     'karma-coffee-preprocessor',
+5 verbose install     'karma-jade-preprocessor',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'karma',
+5 verbose install     'karma-ng-html2js-preprocessor',
+5 verbose install     'supertest',
+5 verbose install     'should' ] ]
+6 info preinstall flynaldacom@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping compression@~1.0.1 /Users/jtcho/Documents/Code/flynalda.com
+9 verbose already installed skipping lodash@~2.4.1 /Users/jtcho/Documents/Code/flynalda.com
+10 verbose already installed skipping ejs@~0.8.4 /Users/jtcho/Documents/Code/flynalda.com
+11 verbose already installed skipping composable-middleware@^0.3.0 /Users/jtcho/Documents/Code/flynalda.com
+12 verbose already installed skipping connect-mongo@^0.4.1 /Users/jtcho/Documents/Code/flynalda.com
+13 verbose already installed skipping nodemailer@^1.0 /Users/jtcho/Documents/Code/flynalda.com
+14 verbose cache add [ 'nodemailer-smtp-transport@^0.0', null ]
+15 verbose cache add name=undefined spec="nodemailer-smtp-transport@^0.0" args=["nodemailer-smtp-transport@^0.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'nodemailer-smtp-transport@^0.0',
+16 verbose parsed url   path: 'nodemailer-smtp-transport@^0.0',
+16 verbose parsed url   href: 'nodemailer-smtp-transport@^0.0' }
+17 verbose already installed skipping grunt@~0.4.4 /Users/jtcho/Documents/Code/flynalda.com
+18 verbose already installed skipping grunt-autoprefixer@~0.7.2 /Users/jtcho/Documents/Code/flynalda.com
+19 verbose cache add name="nodemailer-smtp-transport" spec="^0.0" args=["nodemailer-smtp-transport","^0.0"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '^0.0',
+20 verbose parsed url   path: '^0.0',
+20 verbose parsed url   href: '^0.0' }
+21 verbose addNamed [ 'nodemailer-smtp-transport', '^0.0' ]
+22 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+23 verbose already installed skipping grunt-wiredep@~1.8.0 /Users/jtcho/Documents/Code/flynalda.com
+24 silly lockFile 7bf53087-nodemailer-smtp-transport-0-0 nodemailer-smtp-transport@^0.0
+25 verbose lock nodemailer-smtp-transport@^0.0 /Users/jtcho/.npm/7bf53087-nodemailer-smtp-transport-0-0.lock
+26 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/jtcho/Documents/Code/flynalda.com
+27 silly addNameRange { name: 'nodemailer-smtp-transport',
+27 silly addNameRange   range: '>=0.0.0-0 <0.1.0-0',
+27 silly addNameRange   hasData: false }
+28 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/jtcho/Documents/Code/flynalda.com
+29 verbose already installed skipping grunt-contrib-concat@~0.4.0 /Users/jtcho/Documents/Code/flynalda.com
+30 verbose registry.get https://registry.npmjs.org/nodemailer-smtp-transport not expired, no request
+31 silly addNameRange number 2 { name: 'nodemailer-smtp-transport',
+31 silly addNameRange   range: '>=0.0.0-0 <0.1.0-0',
+31 silly addNameRange   hasData: true }
+32 silly addNameRange versions [ 'nodemailer-smtp-transport',
+32 silly addNameRange   [ '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.1.2',
+32 silly addNameRange     '0.1.3',
+32 silly addNameRange     '0.1.4',
+32 silly addNameRange     '0.1.5',
+32 silly addNameRange     '0.1.6',
+32 silly addNameRange     '0.1.7',
+32 silly addNameRange     '0.1.8',
+32 silly addNameRange     '0.1.9',
+32 silly addNameRange     '0.1.10',
+32 silly addNameRange     '0.1.11',
+32 silly addNameRange     '0.1.12',
+32 silly addNameRange     '0.1.13' ] ]
+33 silly lockFile 7bf53087-nodemailer-smtp-transport-0-0 nodemailer-smtp-transport@^0.0
+34 silly lockFile 7bf53087-nodemailer-smtp-transport-0-0 nodemailer-smtp-transport@^0.0
+35 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/jtcho/Documents/Code/flynalda.com
+36 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/jtcho/Documents/Code/flynalda.com
+37 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/jtcho/Documents/Code/flynalda.com
+38 verbose already installed skipping grunt-contrib-imagemin@~0.7.1 /Users/jtcho/Documents/Code/flynalda.com
+39 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/jtcho/Documents/Code/flynalda.com
+40 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/jtcho/Documents/Code/flynalda.com
+41 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/jtcho/Documents/Code/flynalda.com
+42 verbose already installed skipping grunt-google-cdn@~0.4.0 /Users/jtcho/Documents/Code/flynalda.com
+43 verbose already installed skipping grunt-newer@~0.7.0 /Users/jtcho/Documents/Code/flynalda.com
+44 verbose already installed skipping grunt-ng-annotate@^0.2.3 /Users/jtcho/Documents/Code/flynalda.com
+45 verbose already installed skipping grunt-rev@~0.1.0 /Users/jtcho/Documents/Code/flynalda.com
+46 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/jtcho/Documents/Code/flynalda.com
+47 verbose already installed skipping grunt-usemin@~2.1.1 /Users/jtcho/Documents/Code/flynalda.com
+48 verbose already installed skipping grunt-env@~0.4.1 /Users/jtcho/Documents/Code/flynalda.com
+49 verbose already installed skipping grunt-node-inspector@~0.1.5 /Users/jtcho/Documents/Code/flynalda.com
+50 verbose already installed skipping grunt-nodemon@~0.2.0 /Users/jtcho/Documents/Code/flynalda.com
+51 verbose already installed skipping grunt-angular-templates@^0.5.4 /Users/jtcho/Documents/Code/flynalda.com
+52 verbose already installed skipping grunt-dom-munger@^3.4.0 /Users/jtcho/Documents/Code/flynalda.com
+53 verbose already installed skipping grunt-protractor-runner@^1.1.0 /Users/jtcho/Documents/Code/flynalda.com
+54 verbose already installed skipping grunt-asset-injector@^0.1.0 /Users/jtcho/Documents/Code/flynalda.com
+55 verbose already installed skipping grunt-karma@~0.8.2 /Users/jtcho/Documents/Code/flynalda.com
+56 verbose cache add [ 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+56 verbose cache add   null ]
+57 verbose cache add name=undefined spec="grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control" args=["grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+58 verbose parsed url   path: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+58 verbose parsed url   href: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control' }
+59 verbose already installed skipping grunt-mocha-test@~0.10.2 /Users/jtcho/Documents/Code/flynalda.com
+60 verbose cache add name="grunt-build-control" spec="git+https://github.com/DaftMonk/grunt-build-control" args=["grunt-build-control","git+https://github.com/DaftMonk/grunt-build-control"]
+61 verbose parsed url { protocol: 'git+https:',
+61 verbose parsed url   slashes: true,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: 'github.com',
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: 'github.com',
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '/DaftMonk/grunt-build-control',
+61 verbose parsed url   path: '/DaftMonk/grunt-build-control',
+61 verbose parsed url   href: 'git+https://github.com/DaftMonk/grunt-build-control' }
+62 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+63 verbose lock https://github.com/DaftMonk/grunt-build-control /Users/jtcho/.npm/7e4d577b-com-DaftMonk-grunt-build-control.lock
+64 verbose already installed skipping grunt-contrib-sass@^0.7.3 /Users/jtcho/Documents/Code/flynalda.com
+65 verbose addRemoteGit [ 'https://github.com/DaftMonk/grunt-build-control', 'master' ]
+66 verbose already installed skipping jit-grunt@^0.5.0 /Users/jtcho/Documents/Code/flynalda.com
+67 verbose already installed skipping time-grunt@~0.3.1 /Users/jtcho/Documents/Code/flynalda.com
+68 verbose already installed skipping grunt-express-server@~0.4.17 /Users/jtcho/Documents/Code/flynalda.com
+69 verbose already installed skipping grunt-open@~0.2.3 /Users/jtcho/Documents/Code/flynalda.com
+70 verbose already installed skipping open@~0.0.4 /Users/jtcho/Documents/Code/flynalda.com
+71 verbose already installed skipping jshint-stylish@~0.1.5 /Users/jtcho/Documents/Code/flynalda.com
+72 verbose already installed skipping connect-livereload@~0.4.0 /Users/jtcho/Documents/Code/flynalda.com
+73 verbose already installed skipping karma-ng-scenario@~0.1.0 /Users/jtcho/Documents/Code/flynalda.com
+74 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/jtcho/Documents/Code/flynalda.com
+75 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/jtcho/Documents/Code/flynalda.com
+76 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/jtcho/Documents/Code/flynalda.com
+77 verbose git remote.origin.url https://github.com/DaftMonk/grunt-build-control
+78 verbose already installed skipping karma-ng-jade2js-preprocessor@^0.1.2 /Users/jtcho/Documents/Code/flynalda.com
+79 verbose already installed skipping karma-jasmine@~0.1.5 /Users/jtcho/Documents/Code/flynalda.com
+80 verbose already installed skipping karma-chrome-launcher@~0.1.3 /Users/jtcho/Documents/Code/flynalda.com
+81 verbose already installed skipping requirejs@~2.1.11 /Users/jtcho/Documents/Code/flynalda.com
+82 verbose already installed skipping karma-requirejs@~0.2.1 /Users/jtcho/Documents/Code/flynalda.com
+83 verbose already installed skipping karma-coffee-preprocessor@~0.2.1 /Users/jtcho/Documents/Code/flynalda.com
+84 verbose already installed skipping karma-jade-preprocessor@0.0.11 /Users/jtcho/Documents/Code/flynalda.com
+85 verbose already installed skipping karma-phantomjs-launcher@~0.1.4 /Users/jtcho/Documents/Code/flynalda.com
+86 verbose already installed skipping karma@~0.12.9 /Users/jtcho/Documents/Code/flynalda.com
+87 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 /Users/jtcho/Documents/Code/flynalda.com
+88 verbose already installed skipping supertest@~0.11.0 /Users/jtcho/Documents/Code/flynalda.com
+89 verbose already installed skipping should@~3.3.1 /Users/jtcho/Documents/Code/flynalda.com
+90 verbose already installed skipping express@~4.0.0 /Users/jtcho/Documents/Code/flynalda.com
+91 verbose already installed skipping morgan@~1.0.0 /Users/jtcho/Documents/Code/flynalda.com
+92 verbose already installed skipping body-parser@~1.5.0 /Users/jtcho/Documents/Code/flynalda.com
+93 verbose already installed skipping method-override@~1.0.0 /Users/jtcho/Documents/Code/flynalda.com
+94 verbose already installed skipping serve-favicon@~2.0.1 /Users/jtcho/Documents/Code/flynalda.com
+95 verbose already installed skipping cookie-parser@~1.0.1 /Users/jtcho/Documents/Code/flynalda.com
+96 verbose already installed skipping express-session@~1.0.2 /Users/jtcho/Documents/Code/flynalda.com
+97 verbose already installed skipping errorhandler@~1.0.0 /Users/jtcho/Documents/Code/flynalda.com
+98 verbose git fetch -a origin (https://github.com/DaftMonk/grunt-build-control)
+99 verbose git rev-list -n1 master 3d03ebbe49f8f963ef43c50af1084a15f56611fa
+100 verbose resolved git url git+https://github.com/DaftMonk/grunt-build-control#3d03ebbe49f8f963ef43c50af1084a15f56611fa
+101 verbose tar unpack /var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz
+102 silly lockFile 8350ff08-34566357731819153-tmp-tgz-unpack tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz-unpack
+103 verbose lock tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz-unpack /Users/jtcho/.npm/8350ff08-34566357731819153-tmp-tgz-unpack.lock
+104 silly lockFile 64ed3ca4-2666-0-34566357731819153-tmp-tgz tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz
+105 verbose lock tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz /Users/jtcho/.npm/64ed3ca4-2666-0-34566357731819153-tmp-tgz.lock
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry
+108 silly gunzTarPerm modified mode [ '', 509, 493 ]
+109 silly gunzTarPerm extractEntry .gitignore
+110 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+111 silly gunzTarPerm extractEntry .jshintrc
+112 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+113 silly gunzTarPerm extractEntry Gruntfile.js
+114 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 420 ]
+115 silly gunzTarPerm extractEntry LICENSE
+116 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+117 silly gunzTarPerm extractEntry README.md
+118 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+119 silly gunzTarPerm extractEntry package.json
+120 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+121 silly gunzTarPerm extractEntry tasks/
+122 silly gunzTarPerm modified mode [ 'tasks/', 509, 493 ]
+123 silly gunzTarPerm extractEntry tasks/build_control.js
+124 silly gunzTarPerm modified mode [ 'tasks/build_control.js', 436, 420 ]
+125 silly gunzTarPerm extractEntry test/
+126 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+127 silly gunzTarPerm extractEntry test/build_control_test.js
+128 silly gunzTarPerm modified mode [ 'test/build_control_test.js', 436, 420 ]
+129 silly gunzTarPerm extractEntry test/expected/
+130 silly gunzTarPerm modified mode [ 'test/expected/', 509, 493 ]
+131 silly gunzTarPerm extractEntry test/expected/custom_options
+132 silly gunzTarPerm modified mode [ 'test/expected/custom_options', 436, 420 ]
+133 silly gunzTarPerm extractEntry test/expected/default_options
+134 silly gunzTarPerm modified mode [ 'test/expected/default_options', 436, 420 ]
+135 silly gunzTarPerm extractEntry test/fixtures/
+136 silly gunzTarPerm modified mode [ 'test/fixtures/', 509, 493 ]
+137 silly gunzTarPerm extractEntry test/fixtures/123
+138 silly gunzTarPerm modified mode [ 'test/fixtures/123', 436, 420 ]
+139 silly gunzTarPerm extractEntry test/fixtures/testing
+140 silly gunzTarPerm modified mode [ 'test/fixtures/testing', 436, 420 ]
+141 silly lockFile 8350ff08-34566357731819153-tmp-tgz-unpack tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz-unpack
+142 silly lockFile 8350ff08-34566357731819153-tmp-tgz-unpack tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz-unpack
+143 silly lockFile 64ed3ca4-2666-0-34566357731819153-tmp-tgz tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz
+144 silly lockFile 64ed3ca4-2666-0-34566357731819153-tmp-tgz tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-8469-4UGhweb0/1416462742666-0.34566357731819153/tmp.tgz
+145 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+146 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+147 error notarget No compatible version found: nodemailer-smtp-transport@'>=0.0.0-0 <0.1.0-0'
+147 error notarget Valid install targets:
+147 error notarget ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.9","0.1.10","0.1.11","0.1.12","0.1.13"]
+147 error notarget
+147 error notarget This is most likely not a problem with npm itself.
+147 error notarget In most cases you or one of your dependencies are requesting
+147 error notarget a package version that doesn't exist.
+148 error System Darwin 13.4.0
+149 error command "node" "/usr/local/bin/npm" "install"
+150 error cwd /Users/jtcho/Documents/Code/flynalda.com
+151 error node -v v0.10.32
+152 error npm -v 1.4.28
+153 error code ETARGET
+154 verbose exit [ 1, true ]

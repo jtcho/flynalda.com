@@ -1,0 +1,18 @@
+
+.nalda_mascot {
+	background-image:url('/assets/images/nalda_mascot.svg');
+	
+	width:194.4px;
+	height:571.62px;
+
+	background-repeat:no-repeat;
+	position: relative;
+	display: none;
+	top:40px;
+}
+
+@media (min-width: 992px) {
+	.nalda_mascot {
+		display: block;
+	}
+}

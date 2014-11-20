@@ -9,19 +9,19 @@ angular.module('flynaldacomApp')
       },
       {
         'title': 'Activities',
-        'link': '/'
+        'link': '#'
       },
       {
         'title': 'Tips',
-        'link': '/'
+        'link': '#'
       },
       {
         'title': 'Ask Nalda',
-        'link': '/'
+        'link': '/ask'
       },
       {
         'title': 'Gallery',
-        'link': '/'
+        'link': '#'
       }
     ];
 
