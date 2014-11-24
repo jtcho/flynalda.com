@@ -1,8 +1,4 @@
-<style>
-body {
-	background-color:#f4f4f4;
-}
-</style>
+<style> body { background-color:#f4f4f4; } </style>
 
 <div ng-include="'components/navbar/navbar.html'"></div>
 <!-- <div style="background-color:#f4f4f4"> -->
@@ -10,6 +6,7 @@ body {
 
 <div style="width:100%; height:100px; background-color:#f4f4f4; position:relative; z-index: 2;"></div>
 
+<div class="slantleft slantbelow gray"></div>
 <div class="slantright slanttop dgray"></div>
 <div class="slant dgray text-center" style="height:550px;">
 	<div class="col-md-1"></div>
@@ -38,7 +35,7 @@ body {
 		    </div>
 		    <div class="form-group" ng-class="{error: contactForm.message.$invalid}">
 		      <label>Message</label>
-		      <textarea class="form-control" rows="5" name="message" ng-model="user.body" required="required" placeholder="Got a question, or need some help planning your trip? Send us an email and we'll get back to you in a jiffy!"></textarea>
+		      <textarea class="form-control" rows="5" name="message" ng-model="user.body" required="required" placeholder="Got a question, or need some help planning your trip? Send us an email and we'll get back to you in a jiffy!" style="resize: none;"></textarea>
 		      <span class="help-block" ng-show="contactForm.message.$error.required">*Required</span>
 		    </div>
 	    	<button class="btn btn-primary btn-lg btn-block" ng-click="send()" ng-disabled="contactForm.$invalid">Send</button>
@@ -50,6 +47,7 @@ body {
 	</div>
 </div>
 <div class="slantleft slantbelow dgray"></div>
+<div class="slantleft slanttop gray"></div>
 
 <div style="width:100%; height:100px; background-color:#f4f4f4; position:relative; z-index: 2;"></div>
 

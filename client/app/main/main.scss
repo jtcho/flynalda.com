@@ -4,11 +4,11 @@ html, body {
 	min-width: 400px;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
 	color: #3d819e;
 }
 
-p {
+p, ul {
 	color: #496069;
 }
 
@@ -134,6 +134,17 @@ p {
 	}
 }
 
+#bannerlogo {
+	width: 250px;
+	height: 78px;
+	background-size: 250px 78px;
+	display: block;
+	position:relative;
+	top:160px;
+	margin:0 auto;
+	background-image: url('/assets/images/banner_logo.png');
+}
+
 //END BANNER
 
 //SLANTED ROWS
@@ -170,11 +181,11 @@ p {
 }
 
 .slantleft {
-	transform: skewY(-1deg);
+	transform: skewY(-2deg);
 }
 
 .slantright {
-	transform: skewY(1deg);
+	transform: skewY(2deg);
 }
 
 .slant h1 {
@@ -183,9 +194,13 @@ p {
 	text-transform:uppercase;
 }
 
-.slant p {
+.slant p, .slant ul {
 	letter-spacing: 0.6px;
 	font-size: 1.2em;
+}
+
+.slant ul ul {
+	font-size: 1em;
 }
 
 //END SLANTED ROWS
@@ -217,6 +232,54 @@ p {
 	border-radius: 10px;
 }
 
+//ACTIVITIES
+
+.activities {
+	p, ul {
+		font-size: 1.0em;
+	}
+}
+
+.activity_block {
+	margin: 70px auto 0 auto;
+	background-color:#000;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.activity_slide_container {
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+	display: table;
+	vertical-align:middle;
+}
+
+.activity_slide {
+	padding-top: 50%;
+	// background-color: #000;
+	background-size: contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	display: table-cell;
+}
+
+.activity_slideshow {
+	display: none;
+}
+
+.bus_map {
+	background-image: url('/assets/images/activities/map/bustop_map.png');
+	background-size:cover;
+}
+
+.bus_map:hover {
+	opacity: 0.8;
+}
+
+//END ACTIVITIES
+
 //
 
 //FOOTER
@@ -241,6 +304,27 @@ p {
 }
 
 //END FOOTER
+
+//TIPS
+
+.tips a {
+	font-size: 1.2em;
+}
+
+.tips_thumb {
+	display: none;
+	vertical-align: middle;
+}
+
+.tips_svg_left {
+	margin-right: 100px;
+}
+
+.tips_svg_right {
+	margin-left: 100px;
+}
+
+//END TIPS
 
 //SVG
 
@@ -294,6 +378,12 @@ p {
 	}
 }
 
+@media (min-width: 992px) {
+	.activity_slideshow {
+		display: inline-block;
+	}
+}
+
 @media (min-width: 1000px) {
 
 	.member {
@@ -306,6 +396,14 @@ p {
 
 	.banner h2 {
 		display: block;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.tips_thumb {
+		display: table-cell;
 	}
 
 }

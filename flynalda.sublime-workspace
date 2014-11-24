@@ -3,25 +3,94 @@
 	{
 		"selected_items":
 		[
+			[
+				"stroke-dash",
+				"stroke-dasharray"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "client/app/main/main.html",
+			"settings":
+			{
+				"buffer_size": 2834,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/index.html",
+			"settings":
+			{
+				"buffer_size": 3175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/components/navbar/navbar.controller.js",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/main/main.controller.js",
+			"settings":
+			{
+				"buffer_size": 352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/app.js",
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/main/main.scss",
+			"settings":
+			{
+				"buffer_size": 4357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/config/environment/production.js",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 369.0,
 		"selected_items":
 		[
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Preferences: Browse Packages"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 139.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -35,15 +104,54 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jtcho/Documents/Code/flynalda.com"
+		"/home/jtcho/Documents/Code/flynalda.com",
+		"/home/jtcho/Documents/Code/flynalda.com/client",
+		"/home/jtcho/Documents/Code/flynalda.com/client/app",
+		"/home/jtcho/Documents/Code/flynalda.com/client/app/main",
+		"/home/jtcho/Documents/Code/flynalda.com/client/assets",
+		"/home/jtcho/Documents/Code/flynalda.com/client/components",
+		"/home/jtcho/Documents/Code/flynalda.com/client/components/navbar",
+		"/home/jtcho/Documents/Code/flynalda.com/server",
+		"/home/jtcho/Documents/Code/flynalda.com/server/api",
+		"/home/jtcho/Documents/Code/flynalda.com/server/api/thing",
+		"/home/jtcho/Documents/Code/flynalda.com/server/components",
+		"/home/jtcho/Documents/Code/flynalda.com/server/components/errors",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/environment",
+		"/home/jtcho/Documents/Code/flynalda.com/server/views"
 	],
 	"file_history":
 	[
+		"/home/jtcho/Documents/Code/flynalda.com/client/app/main/main.controller.spec.js",
+		"/home/jtcho/Documents/Code/flynalda.com/client/app/main/main.js",
+		"/home/jtcho/Documents/Code/flynalda.com/Gruntfile.js",
+		"/home/jtcho/Documents/Code/flynalda.com/client/index.html",
+		"/home/jtcho/Documents/Code/flynalda.com/client/components/navbar/navbar.html",
+		"/home/jtcho/Documents/Code/flynalda.com/client/components/navbar/logo.html",
+		"/home/jtcho/Documents/Code/flynalda.com/client/assets/svg/logo.svg",
+		"/home/jtcho/Documents/Code/flynalda.com/client/components/navbar/navbar.controller.js",
+		"/home/jtcho/Documents/Code/flynalda.com/client/app/main/main.scss",
+		"/home/jtcho/Documents/Code/flynalda.com/node_modules/karma/lib/init.js",
+		"/home/jtcho/Documents/Code/flynalda.com/node_modules/grunt-google-cdn/node_modules/bower/lib/commands/info.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/routes.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/app.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/components/errors/index.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/api/thing/index.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/api/thing/thing.controller.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/environment/index.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/environment/development.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/environment/production.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/environment/test.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/local.env.sample.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/local.env.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/views/404.html",
+		"/home/jtcho/Documents/Code/flynalda.com/server/config/express.js",
+		"/home/jtcho/Documents/Code/flynalda.com/server/api/thing/thing.spec.js",
 		"/home/jtcho/Documents/Projects/KPCBFellows/jtqueue.h"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -57,6 +165,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rev",
+			"7",
+			"460px",
+			"440px",
+			"z-index",
+			"405"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -74,14 +188,230 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "client/app/main/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								841,
+								841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 561.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1185,
+								1185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/components/navbar/navbar.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "client/app/main/main.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/app/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/app/main/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "server/config/environment/production.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -96,11 +426,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.421722113503,
 			1.0
 		],
 		"rows":
@@ -117,7 +454,7 @@
 	"project": "flynalda.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -138,11 +475,19 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"install package",
+				"installPackage"
+			],
+			[
+				"package",
+				"PackageRepository"
+			]
 		],
-		"width": 0.0
+		"width": 755.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -152,7 +497,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 387.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

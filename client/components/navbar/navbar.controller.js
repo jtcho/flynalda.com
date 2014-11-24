@@ -9,20 +9,20 @@ angular.module('flynaldacomApp')
       },
       {
         'title': 'Activities',
-        'link': '#'
+        'link': '/activities'
       },
       {
         'title': 'Tips',
-        'link': '#'
+        'link': '/tips'
       },
       {
         'title': 'Ask Nalda',
         'link': '/ask'
       },
-      {
-        'title': 'Gallery',
-        'link': '#'
-      }
+      // {
+      //   'title': 'Gallery',
+      //   'link': '#'
+      // }
     ];
 
     $scope.isCollapsed = true;

@@ -5,7 +5,8 @@ angular.module('flynaldacomApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'angular-carousel'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
@@ -19,6 +20,16 @@ angular.module('flynaldacomApp', [
       url: '/ask',
       templateUrl: 'app/ask/ask.html',
       controller: 'AskCtrl'
+    })
+    .state('tips', {
+      url: '/tips',
+      templateUrl: 'app/tips/tips.html',
+      controller: function() {}
+    })
+    .state('activities', {
+      url: '/activities',
+      templateUrl: 'app/activities/activities.html',
+      controller: 'ActivitiesCtrl'
     })
     ;
 
